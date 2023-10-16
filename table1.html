@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tables</title>
+    <style>
+
+        table,th,td{
+            border: 2px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            margin: auto;
+            width: 80%;
+            height: 400px;
+        }
+        caption{
+            text-align: center;
+            font-size: 40px;
+            font-weight: bolder;
+        }
+        td{
+            padding-left: 40px;
+        }
+        tr.rowG{
+            background-color: green;
+        }
+        tr.rowBlue{
+            background-color: #0a82a9;
+        }
+        tr.rowWhite{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<table>
+    <caption>Employee Table</caption>
+    <tr class="rowG">
+        <th>EmpId</th>
+        <th>EmpName</th>
+        <th>EpmDept</th>
+        <th>EmpSalary</th>
+
+    </tr>
+    <tr class="rowWhite">
+        <td>101</td>
+        <td>Joe</td>
+        <td> Development</td>
+        <td> 50000</td>
+
+    </tr>
+
+    <tr class="rowBlue">
+        <td>102</td>
+        <td>Mary</td>
+        <td>Testing</td>
+        <td>30000</td>
+    </tr>
+
+    <tr class="rowWhite">
+        <td>103</td>
+        <td>Beck</td>
+        <td>Analyst</td>
+        <td> 40000</td>
+    </tr>
+
+    <tr class="rowBlue">
+        <td>104</td>
+        <td>Candace</td>
+        <td>Development</td>
+        <td> 45000</td>
+    </tr>
+
+    <tr class="rowWhite">
+        <td>105</td>
+        <td>Ronnie</td>
+        <td>Android </td>
+        <td> 600000</td>
+    </tr>
+
+    <tr class="rowBlue">
+        <td>106</td>
+        <td>Clive</td>
+        <td>Software </td>
+        <td>50000</td>
+    </tr>
+</table>
+</body>
+</html>
